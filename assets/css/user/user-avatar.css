@@ -1,0 +1,56 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 15px;
+  background-color: #f2f3f5;
+  /* 设置卡片主体区域的宽度 */
+}
+body .layui-card-body {
+  width: 500px;
+}
+body .layui-card-body .row1 {
+  display: flex;
+}
+body .layui-card-body .row1 .cropper-box {
+  width: 350px;
+  height: 350px;
+  background-color: cyan;
+  overflow: hidden;
+}
+body .layui-card-body .row1 .preview-box {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+}
+body .layui-card-body .row1 .preview-box .img-preview {
+  overflow: hidden;
+  border-radius: 50%;
+}
+body .layui-card-body .row1 .preview-box .w100 {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+}
+body .layui-card-body .row1 .preview-box .w50 {
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  margin-top: 50px;
+}
+body .layui-card-body .row1 .preview-box .size {
+  font-size: 12px;
+  color: gray;
+  text-align: center;
+}
+body .layui-card-body .row2 {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+body .layui-card-body .row2 #file {
+  display: none;
+}
